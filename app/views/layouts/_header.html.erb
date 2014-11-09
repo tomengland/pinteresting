@@ -1,3 +1,4 @@
+<%= render 'layouts/frameworksModal' %>
 <nav class="navbar navbar-static-top navbar-default" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -16,7 +17,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", about_path %></li>
-        <li><%= link_to "Frameworks", techUsed_path %></li>
+        <li><%= link_to "Frameworks", "#frameworksModal", :data => {:toggle=>"modal"} %></li>
       <% if user_signed_in? %>
         <li><%= link_to "Account Settings", edit_user_registration_path %></li>
         <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
