@@ -75,4 +75,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #Set this to Heroku hostname.
+  config.action_mailer.default_url_options = { :host => 'http://teio-pinteresting.herokuapp.com/' }
 end
