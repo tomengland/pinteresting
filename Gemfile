@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.0'
 
 # paperclip
 gem 'paperclip'
+# AWS-SDK
+gem 'aws-sdk'
 # Devise Gem, Auth management
 gem 'devise', '~> 3.4.1'
 
