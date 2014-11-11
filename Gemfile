@@ -20,6 +20,8 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 # paperclip
 gem 'paperclip'
+# font awesome
+gem 'font-awesome-rails'
 # AWS-SDK
 gem 'aws-sdk'
 # Devise Gem, Auth management
